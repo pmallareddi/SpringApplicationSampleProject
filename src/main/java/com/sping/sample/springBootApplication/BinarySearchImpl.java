@@ -23,7 +23,7 @@ public class BinarySearchImpl {
     public int binarySearch(int[] numbers, int numberToSearchFor) {
 
         int[] sortedNumbers = sortAlgorithm.sort(numbers);
-        System.out.println(sortAlgorithm);
+        System.out.println(sortedNumbers);
         return 3;
     }
 
